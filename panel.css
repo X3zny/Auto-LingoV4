@@ -1,0 +1,104 @@
+#auto-lingos-gui {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  z-index: 999999;
+  width: 280px;
+  border-radius: 12px;
+  background-color: rgba(30, 30, 47, 0.95);
+  color: #ddd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  user-select: none;
+  cursor: grab;
+}
+
+#auto-lingos-gui .container {
+  padding: 20px;
+  text-align: center;
+}
+
+#auto-lingos-gui h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #5a76ff;
+  letter-spacing: 1px;
+}
+
+#auto-lingos-gui h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #eee;
+}
+
+#auto-lingos-gui select {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #33334d;
+  color: #eee;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#auto-lingos-gui button {
+  background-color: #5a76ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#auto-lingos-gui button:hover {
+  background-color: #4159cc;
+}
+
+#auto-lingos-gui .footer {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #9999bb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#auto-lingos-gui .social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+#auto-lingos-gui .icon {
+  color: #8888aa;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#auto-lingos-gui .icon:hover {
+  color: #5a76ff;
+}
+
+#auto-lingos-gui svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  display: inline-block;
+}
+
+#auto-lingos-gui .icon {
+  color: #8888aa;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+#auto-lingos-gui .icon:hover {
+  color: #5a76ff;
+}

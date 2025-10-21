@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Auto-Lingos v4",
+  "version": "0.4.5",
+  "description": "Automatycznie uzupełnia odpowiedzi na lingos.pl",
+  "permissions": ["scripting", "activeTab", "storage"],
+  "host_permissions": [
+    "https://lingos.pl/*"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://lingos.pl/*"],
+      "css": ["panel.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["lang/*", "*.json", "*.txt"],
+      "matches": ["https://lingos.pl/*"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
